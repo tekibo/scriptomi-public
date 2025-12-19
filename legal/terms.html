@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - Scriptomi</title>
+    <meta name="description" content="Terms of Service for Scriptomi - Smart Offline Medication & Prescription Manager">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Readex Pro', 'sans-serif'] },
+                    colors: { brand: { 100: '#dcfce7', 500: '#3d9965', 600:'#2d7a4f', 900: '#143b27' } }
+                }
+            }
+        }
+    </script>
+    <style>
+        .glass { background: rgba(255, 255, 255, 0.9); backdrop-filter: blur(10px); }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900 font-sans antialiased">
+    <!-- Navbar -->
+    <nav class="fixed w-full z-50 glass border-b border-brand-100 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+            <div class="flex justify-between h-20 items-center">
+                <a href="../index.html" class="flex items-center gap-3">
+                    <img src="../assets/icon.webp" alt="Scriptomi Logo" class="h-8">
+                    <span class="text-2xl font-800 text-brand-500 tracking-tight">Scriptomi</span>
+                </a>
+
+                <!-- Mobile hamburger -->
+                <button id="mobile-menu-button" aria-expanded="false" aria-controls="mobile-menu" class="md:hidden inline-flex items-center justify-center p-2 rounded-lg text-slate-800 hover:bg-slate-100 focus:outline-none">
+                    <svg id="hamburger-open" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                    <svg id="hamburger-close" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+
+                <div class="hidden md:flex items-center gap-8 font-medium">
+                    <a href="../index.html#features" class="hover:text-brand-500 transition-colors">Features</a>
+                    <a href="privacy.html" class="hover:text-brand-500 transition-colors">Privacy</a>
+                    <a href="terms.html" class="hover:text-brand-500 transition-colors">Terms</a>
+                    <a href="../index.html#faq" class="hover:text-brand-500 transition-colors">FAQ</a>
+                    <a href="https://play.google.com/store/apps/details?id=com.tekibo.scriptomi" 
+                       class="bg-brand-500 text-white px-6 py-2.5 rounded-full hover:bg-brand-600 transition-all shadow-lg shadow-brand-500/20">
+                       Get the App
+                    </a>
+                </div>
+            </div>
+
+            <!-- Mobile menu -->
+            <div id="mobile-menu" class="hidden md:hidden absolute right-6 top-full mt-3 w-64 bg-white glass rounded-xl shadow-lg p-4 z-50 ring-1 ring-slate-200">
+                <nav class="flex flex-col gap-3 font-medium">
+                    <a href="../index.html#features" class="block px-3 py-2 rounded-md hover:bg-slate-50">Features</a>
+                    <a href="privacy.html" class="block px-3 py-2 rounded-md hover:bg-slate-50">Privacy</a>
+                    <a href="terms.html" class="block px-3 py-2 rounded-md hover:bg-slate-50">Terms</a>
+                    <a href="../index.html#faq" class="block px-3 py-2 rounded-md hover:bg-slate-50">FAQ</a>
+                    <a href="https://play.google.com/store/apps/details?id=com.tekibo.scriptomi" class="block px-3 py-2 mt-1 rounded-full text-center bg-brand-500 text-white">Get the App</a>
+                </nav>
+            </div>
+        </div>
+    </nav>
+
+    <main class="pt-32 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <header class="text-center mb-12">
+            <h1 class="text-4xl font-800 mb-4">Terms of Service</h1>
+            <p class="text-lg text-slate-600 max-w-2xl mx-auto">Last updated: December 19, 2025</p>
+        </header>
+
+        <section class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 mb-8">
+            <h2 class="text-2xl font-700 mb-4">Acceptance of Terms</h2>
+            <p class="text-slate-700 leading-relaxed">By using Scriptomi, you agree to these Terms of Service. If you do not agree, please do not use the app.</p>
+        </section>
+
+        <section class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 mb-8">
+            <h2 class="text-2xl font-700 mb-4">License</h2>
+            <p class="text-slate-700 leading-relaxed">Scriptomi is provided under a one-time purchase license. You may use the app on devices you own in accordance with the store's licensing terms.</p>
+        </section>
+
+        <section class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 mb-8">
+            <h2 class="text-2xl font-700 mb-4">User Data & Responsibility</h2>
+            <p class="text-slate-700 leading-relaxed">You are responsible for the accuracy of the data you enter. Scriptomi stores data locally and cannot be held responsible for data loss if local backups are not made by the user.</p>
+        </section>
+
+        <section class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 mb-8">
+            <h2 class="text-2xl font-700 mb-4">Limitation of Liability</h2>
+            <p class="text-slate-700 leading-relaxed">To the fullest extent permitted by law, TEKIBO and its affiliates are not liable for indirect, incidental or consequential damages arising from your use of the app.</p>
+        </section>
+
+        <section class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 mb-8">
+            <h2 class="text-2xl font-700 mb-4">Contact</h2>
+            <p class="text-slate-700 leading-relaxed">Questions regarding these terms can be directed to <a href="mailto:support@tekibo.in" class="text-brand-500 underline">support@tekibo.in</a>.</p>
+        </section>
+
+    </main>
+
+    <footer class="bg-slate-900 text-slate-400 py-12 border-t border-slate-800 mt-12">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <img src="https://www.tekibo.in/TEKIBO-logo-white.webp" alt="Tekibo" class="h-8 mx-auto mb-6 opacity-80">
+            <p class="mb-4 text-sm">© 2025 TEKIBO. All rights reserved.</p>
+            <div class="flex justify-center gap-8 text-xs font-semibold uppercase tracking-widest">
+                <a href="privacy.html" class="hover:text-white transition-colors">Privacy Policy</a>
+                <a href="terms.html" class="hover:text-white transition-colors">Terms of Service</a>
+                <a href="mailto:support@tekibo.in" class="hover:text-white transition-colors">Support</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        (function(){
+            const btn = document.getElementById('mobile-menu-button');
+            const menu = document.getElementById('mobile-menu');
+            const openIcon = document.getElementById('hamburger-open');
+            const closeIcon = document.getElementById('hamburger-close');
+            if(!btn || !menu) return;
+
+            btn.addEventListener('click', function(e){
+                const isHidden = menu.classList.contains('hidden');
+                if(isHidden){
+                    menu.classList.remove('hidden');
+                    btn.setAttribute('aria-expanded','true');
+                    if(openIcon && closeIcon){ openIcon.classList.add('hidden'); closeIcon.classList.remove('hidden'); }
+                } else {
+                    menu.classList.add('hidden');
+                    btn.setAttribute('aria-expanded','false');
+                    if(openIcon && closeIcon){ openIcon.classList.remove('hidden'); closeIcon.classList.add('hidden'); }
+                }
+            });
+
+            document.addEventListener('click', function(e){
+                if(menu.classList.contains('hidden')) return;
+                if(!menu.contains(e.target) && !btn.contains(e.target)){
+                    menu.classList.add('hidden');
+                    btn.setAttribute('aria-expanded','false');
+                    if(openIcon && closeIcon){ openIcon.classList.remove('hidden'); closeIcon.classList.add('hidden'); }
+                }
+            });
+        })();
+    </script>
+
+</body>
+</html>

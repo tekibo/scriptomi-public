@@ -1,0 +1,23 @@
+.glass {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+}
+
+
+.hero-pattern {
+    background-color: #3d9965;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+}
+
+.qr-glow {
+    box-shadow: 0 0 40px rgba(61, 153, 101, 0.4), 0 0 80px rgba(61, 153, 101, 0.2);
+}
+
+.scan-indicator {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #3d9965, transparent);
+    animation: scan-line 2s ease-in-out infinite;
+}
